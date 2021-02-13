@@ -18,10 +18,10 @@
 
 # Attemp to Terminate and Remove previous session
 if [ ! -d .git ]; then
-    git clone https://github.com/userbotindo/UserIndoBot -b master tmp_git
+    git clone https://github.com/FS-Project/FerBotEn -b master tmp_git
     mv tmp_git/.git .
     rm -rf tmp_git
 fi
 
 # start
-python3 -m ubotindo
+python3 -m ferbot
