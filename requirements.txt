@@ -27,3 +27,4 @@ telegraph
 wget
 wikipedia
 hurry.filesize
+psycopg2-binary
