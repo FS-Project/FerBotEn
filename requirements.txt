@@ -13,6 +13,7 @@ google_trans_new
 gtts
 lxml
 pillow
+postgresql-client
 psutil
 psycopg2-binary
 pymongo[srv]
@@ -27,4 +28,3 @@ telegraph
 wget
 wikipedia
 hurry.filesize
-psycopg2-binary
