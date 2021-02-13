@@ -128,7 +128,7 @@ WHITELIST_USERS = list(WHITELIST_USERS)
 
 # Load at end to ensure all prev variables have been set
 # pylint: disable=C0413
-from ubotindo.modules.helper_funcs.handlers import (
+from ferbot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
 )
 
