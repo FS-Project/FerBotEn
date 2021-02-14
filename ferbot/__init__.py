@@ -23,6 +23,7 @@ import logging
 import os
 import sys
 import spamwatch
+import psycopg2
 import telegram.ext as tg
 from dotenv import load_dotenv
 
