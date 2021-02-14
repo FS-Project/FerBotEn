@@ -98,6 +98,8 @@ WALL_API = os.environ.get("WALL_API") or None
 SPAMWATCH = os.environ.get("SPAMWATCH_API") or None
 LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY") or None
 
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
 # add owner to devusers
 DEV_USERS.add(OWNER_ID)
 
