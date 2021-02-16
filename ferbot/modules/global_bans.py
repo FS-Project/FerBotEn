@@ -27,7 +27,7 @@ from telegram.error import BadRequest, TelegramError, Unauthorized, TimedOut
 from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.utils.helpers import mention_html
 
-import ubotindo.modules.no_sql.gban_db as gban_db
+import ferbot.modules.no_sql.gban_db as gban_db
 from ferbot import STRICT_GBAN  # LOGGER,
 from ferbot import (
     DEV_USERS,
