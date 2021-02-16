@@ -28,7 +28,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters
 from telegram.utils.helpers import escape_markdown
 
-import ubotindo.modules.helper_funcs.fun_strings as fun
+import ferbot.modules.helper_funcs.fun_strings as fun
 from ferbot import DEV_USERS, LOGGER, SUDO_USERS, SUPPORT_USERS, dispatcher
 from ferbot.modules.disable import (
     DisableAbleCommandHandler,
