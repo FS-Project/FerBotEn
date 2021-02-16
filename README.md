@@ -6,7 +6,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bfae649db3742a883e0ac1008755db3)](https://www.codacy.com/gh/FS-Project/FerBotEn/dashboard?utm_source=github.com&utm_medium=referral&utm_content=FS-Project/FerBotEn&utm_campaign=Badge_Grade)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/FS-Project/FerBotEn/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/userbotindo/UserIndoBot/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/FS-Project/FerBotEn/graphs/commit-activity)
 ![logo](https://i.ibb.co/Fb0K2cG/logo-ferbot.jpg)
 
 A modular telegram Python bot running on python3 with sqlalchemy database.
