@@ -25,7 +25,7 @@ from telegram import MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler
 
-import ubotindo.modules.helper_funcs.fun_strings as fun
+import ferbot.modules.helper_funcs.fun_strings as fun
 from ferbot import dispatcher
 from ferbot.modules.disable import (
     DisableAbleCommandHandler,
