@@ -19,7 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """Group disabled commands database."""
 
-from ferubot.modules.no_sql import get_collection
+from ferbot.modules.no_sql import get_collection
 
 DISABLED_COMMANDS = get_collection("DISABLED_COMMANDS")
 
