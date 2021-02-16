@@ -800,7 +800,7 @@ def main():
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=5, clean=True)
         if MESSAGE_DUMP:
-            updater.bot.send_message(
+            updater.bot.send_msg(
                 chat_id=MESSAGE_DUMP, text="System Started..."
             )
 
