@@ -26,7 +26,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.utils.helpers import mention_html
 
-import ubotindo.modules.sql.locks_sql as sql
+import ferbot.modules.sql.locks_sql as sql
 from ferbot import DEV_USERS, LOGGER, SUDO_USERS, dispatcher
 from ferbot.modules.connection import connected
 from ferbot.modules.disable import DisableAbleCommandHandler
