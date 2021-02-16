@@ -38,7 +38,7 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import ubotindo.modules.sql.notes_sql as sql
+import ferbot.modules.sql.notes_sql as sql
 from ferbot import LOGGER, MESSAGE_DUMP, dispatcher
 from ferbot.modules.connection import connected
 from ferbot.modules.disable import DisableAbleCommandHandler
