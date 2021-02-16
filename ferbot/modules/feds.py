@@ -37,7 +37,7 @@ from telegram.error import BadRequest, TelegramError, Unauthorized
 from telegram.ext import CallbackQueryHandler, CommandHandler
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import ubotindo.modules.sql.feds_sql as sql
+import ferbot.modules.sql.feds_sql as sql
 from ferbot import (
     DEV_USERS,
     LOGGER,
