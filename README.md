@@ -1,22 +1,21 @@
-# USERINDOBOT
+# FerBotEn
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/UserBotIndo/)
-
+<img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.1-blue?style=for-the-badge&logo=appveyor"/>
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/FS-Project/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bfae649db3742a883e0ac1008755db3)](https://www.codacy.com/gh/userbotindo/UserIndoBot/dashboard?utm_source=github.com&utm_medium=referral&utm_content=userbotindo/UserIndoBot&utm_campaign=Badge_Grade)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/userbotindo/UserIndoBot/pulls)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bfae649db3742a883e0ac1008755db3)](https://www.codacy.com/gh/FS-Project/FerBotEn/dashboard?utm_source=github.com&utm_medium=referral&utm_content=FS-Project/FerBotEn&utm_campaign=Badge_Grade)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/FS-Project/FerBotEn/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/userbotindo/UserIndoBot/graphs/commit-activity)
-![logo](https://i.ibb.co/zJdLsyg/Userindobot.png)
+![logo](https://i.ibb.co/Fb0K2cG/logo-ferbot.jpg)
 
 A modular telegram Python bot running on python3 with sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and
 simple to use. Note that this project uses a well-known Telegram-bot of its time @BanhammerMarie_bot from Paul Larson as its base.
 
-Can be found on telegram as [UserbotIndo](https://t.me/userbotindobot).
-
-Join the [Group Support](https://t.me/userbotindo) if you just want to stay in the loop about new features or announcements.
+Can be found on telegram as [Ferbot](https://t.me/FerBotEn).
+Report bug's to [👤](https://t.me/Fernans1)
 
 ## Credits
 
@@ -36,13 +35,15 @@ ATechnoHazard for many stuffs
 
 Corsicanu and Nunopenim for android modules
 
+UserIndoBot for source code
+
 Any other missing Credits can be seen in commits!
 
 ## Starting the bot
 
 Once you've set up your database and your configuration (see below) is complete, simply run:
 
-`python3 -m ubotindo`
+`python3 -m ferbot`
 
 ## Setting up the bot Read this before trying to use
 
@@ -66,7 +67,7 @@ An example `config.env` file could be:
 ```python
     API_KEY = "" # your bot Token from BotFather
     OWNER_ID = "1234567"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "userbotindo" # your telegram username
+    OWNER_USERNAME = "ferbot" # your telegram username
     SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"
     MONGO_DB_URI = "mongodb+srv://username:pwd@host.port.mongodb.net/db_name"
     MESSAGE_DUMP = "-100987654"  # needed to make sure 'save from' messages persist
