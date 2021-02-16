@@ -1,3 +1,7 @@
+# Ferbot, this is a bot for management your group
+# This source code copy from UserIndoBot Team, <https://github.com/userbotindo/UserIndoBot.git>
+# Copyright (C) 2021 FS Project <https://github.com/FS-Project/Ferbot.git>
+# 
 # UserindoBot
 # Copyright (C) 2020  UserindoBot Team, <https://github.com/userbotindo/UserIndoBot.git>
 #
@@ -22,10 +26,10 @@ from pytz import country_names as cname
 from telegram import ParseMode
 from telegram.error import BadRequest
 
-from ubotindo import API_WEATHER as APPID
-from ubotindo import dispatcher
-from ubotindo.modules.disable import DisableAbleCommandHandler
-from ubotindo.modules.helper_funcs.alternate import typing_action
+from ferbot import API_WEATHER as APPID
+from ferbot import dispatcher
+from ferbot.modules.disable import DisableAbleCommandHandler
+from ferbot.modules.helper_funcs.alternate import typing_action
 
 
 @typing_action
