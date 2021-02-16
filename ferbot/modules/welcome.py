@@ -42,7 +42,7 @@ from telegram.utils.helpers import (
     escape_markdown,
 )
 
-import ubotindo.modules.sql.welcome_sql as sql
+import ferbot.modules.sql.welcome_sql as sql
 from ferbot import (
     DEV_USERS,
     LOGGER,
