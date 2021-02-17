@@ -14,7 +14,7 @@ from ferbot.modules.helper_funcs.alternate import typing_action
 @typing_action
 def logs(update, context):
     user = update.effective_user
-    with open("ferboten-log.txt", "rb") as f:
+    with open("Ferbot-log.txt", "rb") as f:
         context.bot.send_document(
             document=f,
             filename=f.name,
