@@ -76,7 +76,7 @@ I can do what you tell me, such as :
 ▶ Mute Someone.         
 ▶ Ban/Gban Someone.
 ▶ Save Notes.   
-▶ Predetermined Filters.
+▶ And many other things.
 
 Want To Use Me In Your Group? Just Click the Button Below!
 """
